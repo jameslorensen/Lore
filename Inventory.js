@@ -36,7 +36,7 @@ switch (args[0]) {
       if (args[1] === 'ash') {
           var InvAsh = ["Katana","Lyre"];
           if (args[2] === 'add') {
-              InvAsh.push(args[3].toString) 
+              InvAsh.splice(1, 0, args[3].toString); 
               break;
           } else {
           var embed = new Discord.RichEmbed()
