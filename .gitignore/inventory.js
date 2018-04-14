@@ -14,7 +14,7 @@ bot.on("error", (e) => console.error(e))
 
 bot.on('ready', () => {
     if (process.env.NODE_ENV) {
-      console.log(`The pen is mightier than the sword. \nBut not for Lore, he doesn't have hands.`)
+      console.log(`Ready`)
     }
     console.log(`Lore v${version} has logged in as ${bot.user.tag}!`)
     bot.user.setPresence({
